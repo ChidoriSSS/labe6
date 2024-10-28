@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: var(--tg-theme-text-color);
+  background: linear-gradient(to right, red, yellow); /* Градиент от красного к желтому */
+}
+
+.container {
+  max-width: 390px;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px 200px;
+}
+
+.img {
+  width: 130px;
+}
+
+.item {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  background: rgb(128, 0, 128); /* Фиолетовый цвет кнопки */
+  border-radius: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Times New Roman', sans-serif; 
+  font-size: 16px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background .2s ease, transform .2s ease; 
+}
+
+.btn:hover {
+  background: lightpurple; /* Цвет кнопки при наведении (можно изменить на желаемый оттенок) */
+  transform: scale(1.09); 
+  opacity: 0.9; 
+}
+
